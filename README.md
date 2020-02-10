@@ -58,6 +58,8 @@ What do we do when we want to go beyond reusing a value which may just be a prim
 
 For example, say we are developing a revamped version of the video game Street Fighter. Each character may have their own unique fighting tricks, but in general, all character objects should have at least the same kick and punch abilities. With DRY in mind, when we develop a new fighter object we know we would want to avoid recreating any of these general behaviors and instead code a solution that clones them. We can most easily solve this problem by following patterns driven by Object Oriented Programming.
 
+![Street Fighter](street-fighter.gif)
+
 #### What is an object in programming?
 
   An object encapsulates related data and behavior in an organized structure.
